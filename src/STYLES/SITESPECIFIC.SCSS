@@ -1,0 +1,87 @@
+.caption {
+    color: $borderColor;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+a {
+    a:link {
+        color: black;
+    }
+    a:visited {
+        color: black;
+    }
+    a:active {
+        color: black;
+    }
+
+}
+
+input[type="button"].join-us {
+    transition: box-shadow 0.3s ease-in-out;
+
+    input[type="button"].join-us:hover {
+        box-shadow: 2px 2px 0px $borderShadow;
+    }
+
+    input[type="button"].join-us:focus {
+        // outline: none;
+        outline: 1px solid white;
+    }
+}
+
+input[type="button"].learn-more {
+    transition: background-color 0.3s ease-in-out;
+    input[type="button"].learn-more:hover {
+        background-color: $borderColor;
+        color: black;
+    }
+}
+
+.button-padding {
+    padding: 5px 30px 5px 30px;
+}
+
+.button-border-color {
+    border-color: $borderColor;
+
+}
+
+.card-border-color {
+    border: 1px solid $cardBorder;
+}
+
+.outer-card {
+    background-color: white;
+}
+
+.inner-pic {
+    margin: 10px 10px 10px 10px;
+}
+
+.large-card-shadow {
+    box-shadow: 5px 5px 0px $cardShadow;
+}
+
+.text-border-color {
+    color: $borderColor;
+}
+
+.section-header {
+    margin-top: 15px;
+}
+
+.background-colored-block {
+    background-color: $cardShadow;
+}
+
+.faq {
+    bottom: 150px;
+}
+
+.faq-header {
+    bottom: 30px;
+}
